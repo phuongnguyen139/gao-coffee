@@ -63,6 +63,11 @@ const DashboardMenu = ({ onClick }) => {
           icon: <UserOutlined />,
           label: 'Khách hàng',
         },
+        {
+          key: '/cash',
+          icon: <DollarOutlined />,
+          label: 'Doanh thu tiền mặt',
+        },
       ]}
     />
   );

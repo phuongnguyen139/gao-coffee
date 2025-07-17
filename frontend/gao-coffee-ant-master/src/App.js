@@ -11,6 +11,7 @@ import Sale from './pages/Sale';
 import Revenue from './pages/Revenue';
 import TableDetail from './pages/Sale/TableDetail';
 import Product from './pages/Products';
+import Cash from './pages/Cash/Cash.js';
 
 
 function App() {
@@ -27,6 +28,7 @@ function App() {
           <Route path="staff" element={<Staff />} />
           <Route path="reports" element={<Reports />} />
           <Route path="customers" element={<Customers />} />
+          <Route path="/cash" element={<Cash />} />
           <Route path="inventory-import" element={<InventoryImport />} />
           <Route path="inventory-export" element={<InventoryExport />} />
         </Route>
