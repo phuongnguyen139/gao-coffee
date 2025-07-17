@@ -17,6 +17,7 @@ const DashboardMenu = ({ onClick }) => {
       mode="inline"
       defaultSelectedKeys={['/']}
       onClick={onClick} // ⚡ truyền từ layout
+      selectedKeys={[location.pathname]}
       items={[
         {
           key: '/',
